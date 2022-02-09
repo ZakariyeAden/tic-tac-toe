@@ -8,19 +8,29 @@
   <title>Tic Tac Toe</title>
 </head>
 <body>
-  <h1>Tic Tac Toe</h1>
- <div class="gameboard" id="gameboard">
-  <div class="title right-border bottom-border" data-index="1">X</div>
-  <div class="title right-border bottom-border" data-index="2">X</div>
-  <div class="title bottom-border" data-index="3">X</div>
-  <div class="title right-border bottom-border" data-index="4">X</div>
-  <div class="title right-border bottom-border" data-index="5">X</div>
-  <div class="title  bottom-border" data-index="6">X</div>
-  <div class="title right-border " data-index="7">X</div>
-  <div class="title right-border"  data-index="8">X</div>
-  <div class="title " data-index="9">X</div>
-  <div class="strike strike-column-1" id="strike"></div>
- </div>
+<main class="background">
+  <section class="title">
+    <h1>Tic Tac Toe</h1>
+  </section>
+  <section class="display">
+    player <span class="display-player playerX">X</span>'s turn
+  </section>
+  <section class="container">
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+  </section>
+  <section class="display announcer hide"></section>
+  <section class="controls">
+    <button id="reset">Reset</button>
+  </section>
+</main>
   <script src="app.js"></script>
 </body>
 </html>
