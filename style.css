@@ -44,10 +44,10 @@
   cursor: pointer;
 }
 .playerX{
-  color: red;
+  color: #e8590c;
 }
 .playerO{
-  color: #09c372;
+  color: #099268;
 }
 .controls{
   display: flex;
@@ -57,7 +57,7 @@
   margin-top: 1em;
 }
 #reset{
-  background-color: rgb(218, 1, 1);
+  background-color: #c92a2a;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -66,5 +66,5 @@
   cursor: pointer;
 }
 #reset:hover{
-  background-color: rgba(218, 1, 1, 0.719);
+  background-color: #e03131;
 }
