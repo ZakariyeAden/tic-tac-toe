@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         announcer.classList.remove('hide');
     };
-
+// choose only one spot
     const isValidAction = (tile) => {
         if (tile.innerText === 'X' || tile.innerText === 'O'){
             return false;
